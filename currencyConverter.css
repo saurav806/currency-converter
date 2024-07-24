@@ -60,6 +60,23 @@ input {
 /* Mediaqueries */
 
 @media (max-width: 750px) {
+  body{
+    padding: 0;
+  }
+
+  .container {
+    background-color: rgb(247, 227, 14);
+    border-radius: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto; 
+    padding: 20px 50px;
+  }
+}
+
+@media (max-width: 500px){
   .from-to-section {
     display: felx;
     flex-direction: column;
